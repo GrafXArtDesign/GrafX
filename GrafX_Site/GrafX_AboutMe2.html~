@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="style2.css">
+	
+	<script defer src="script_gallery.js"></script>
+
+	<title>About Me</title>
+
+
+</head>
+
+
+
+
+<body>
+
+<div id="page-container">
+   <div id="content-wrap">
+
+
+<div class="heady">
+
+<a  href="GrafX_Main2.html"> <img class="logobutton" src="Logo_01.png" style="width: 12.7%; height:12.7%" alt="Main"></a></button>
+<a href="GrafX_Portfolio3.html"><img class="toplink" src="Portfolio_Button_1.png" style="width: 25%; height:25%" alt="Portfolio"></a>
+<a href="GrafX_AboutMe2.html"><img class="toplink" src="AboutMe_Button_1.png" style="width: 25%; height:25%" alt="About Me"></a>
+<a href="GrafX_Contact2.html"><img class="toplink" src="Contact_Button_1.png" style="width: 25%; height:25%" alt="Contact"></a></button>
+
+</div>
+
+
+
+
+<img class="title" src="aboutme_title_1.png" width="20%" alt="AboutMe_Title">
+
+<div style="text-align:center">
+<p> <h3>Artist and graphic designer seeking out beauty and sharing it with others.</h3> </p>
+<p><h3>I take my years of artistic skills and apply them to create beautiful designs to help and inspire people!</h3></p>
+<br>
+
+<p><h1>Resume</h1></p>
+
+<img src="Resume_Design_Inkscape_07.png" alt="Resume">
+
+</div>
+
+
+
+
+<br>
+<br>
+<br>
+
+ </div>
+ 
+ 
+ 
+<footer>
+
+<p style="width:100%; height: 100%;">Joshua W. Graf</p>
+
+
+</footer>
+</div>
+
+
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Orbitron Variable', sans-serif;
+	background-color:#96D8E6;
+  margin: 0;
+}
+
+
+.heady{
+padding: 60px;
+text-align: center;
+background: whitesmoke;
+/*color: white;*/
+/*font-size: 30px;*/
+}
+
+.logobutton{
+text-align: left;
+width: 100px;
+height: 100px;
+}
+
+.toplink{
+width:200px;
+height:100px;
+}
+
+footer{
+/*position: fixed;*/
+text-align: center;
+padding: 3px;
+background-color: whitesmoke;
+color: black;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+button{
+background-color: whitesmoke;
+/*color:orange;*/
+font-size: 10pt;
+cursor: pointer;
+}
+
+.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 6.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!--<link rel="stylesheet" href="style.css">-->
+	
+	<!--<script defer src="script.js"></script>-->
+
+	<title>TEST PAGE</title>
+
+
+</head>
+
+
+
+
+<body>
+
+<div id="page-container">
+   <div id="content-wrap">
+
+<div class="heady">
+
+<a  href="GrafX_Main.html"> <img class="logobutton" src="Logo_01.png" style="width: 12.7%; height:12.7%" alt="Main"></a></button>
+<a href="GrafX_Portfolio.html"><img class="toplink" src="Portfolio_Button_1.png" style="width: 25%; height:25%" alt="Portfolio"></a>
+<!--<button><a href="GrafX_Portfolio.html"> <h2>Portfolio</h2></a>-->
+<!--<a  href="GrafX_Portfolio.html"><img class="toplink" src="Portfolio_Button_1.png" alt="Portfolio"></a>-->
+<a href="GrafX_AboutMe.html"><img class="toplink" src="AboutMe_Button_1.png" style="width: 25%; height:25%" alt="About Me"></a>
+<a href="GrafX_Contact.html"><img class="toplink" src="Contact_Button_1.png" style="width: 25%; height:25%" alt="Contact"></a></button>
+
+</div>
+
+
+
+
+<img class="title" src="tradillust_title_2.png" width="30%" alt="TraditionalIllustration_Title">
+
+
+
+
+<h2 style="text-align:center">Painting</h2>
+
+
+<br>
+<br>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="ForestGirlPainting.png" style="width:75%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="LiBanPaint.jpg" style="width:75%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="ForestGirlPainting.png" style="width:75%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="ForestGirlPainting.png" style="width:75%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  
+  
+  <div class="column">
+    <img src="ForestGirlPainting.png" style="width:75%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="ForestGirlPainting.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="LiBanPaint.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="ForestGirlPainting.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="ForestGirlPainting.png" style="width:100%">
+    </div>
+    
+    
+        <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="ForestGirlPainting.png" style="width:100%">
+    </div>
+    
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+
+    <div class="column">
+      <img class="demo cursor" src="ForestGirlPainting.png" style="width:50%" onclick="currentSlide(1)" alt="Fantasy Forest">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ForestGirlPainting.png" style="width:100%" onclick="currentSlide(2)" alt="Li Ban Muirgen">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ForestGirlPainting.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ForestGirlPainting.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+ </div>
+ 
+ 
+ 
+<footer>
+
+<p style="width:100%; height: 100%;">
+Joshua W. Graf
+</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+    
+    
+    
+</body>
+</html>
